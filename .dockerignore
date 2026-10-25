@@ -1,0 +1,9 @@
+.venv
+__pycache__
+logs
+tests
+voice.db
+*.zip
+*.pyc
+.pytest_cache
+kimi-debug-session_*

@@ -1,0 +1,49 @@
+# 本地密钥与环境（绝不提交）
+.env
+.env.*
+!.env.example
+.venv/
+
+# Python 运行产物
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 本地数据库与运行日志
+*.db
+logs/
+
+# 调试附件（可能包含会话数据或密钥）
+kimi-debug-session*.zip
+
+# 操作系统与编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# 本地工具与桥接配置
+.trae/
+.trae-bridge-config.json
+nohup.out
+
+# 依赖与构建产物（本地安装，不入库）
+node_modules/
+dist/
+build/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# 类型检查与格式化缓存
+.mypy_cache/
+.ruff_cache/
+.type_check_cache/
+
+# 临时文件
+*.log
+*.tmp
+*.swp
+*.bak
